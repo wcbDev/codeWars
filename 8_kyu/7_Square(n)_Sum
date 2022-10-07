@@ -1,0 +1,18 @@
+function squareSum(numbers)
+{ 
+  var Sum = 0;
+  for (i=0;i<numbers.length;i++)
+  {
+    Sum += Math.pow(numbers[i], 2);
+  }
+  return Sum;
+}
+
+
+// function squareSum(numbers){
+//   var sum = 0;
+//   numbers.forEach(function(n) {
+//     sum += n * n
+//   });
+//   return sum;
+// }
