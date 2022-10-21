@@ -1,0 +1,4 @@
+function booleanToString(b){
+  let toString = b.toString()
+  return toString
+}
