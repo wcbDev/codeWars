@@ -1,0 +1,13 @@
+// function isPalindrome(x) {
+//   const lowercaseInput = x.toLowerCase();
+
+//   const forward = lowercaseInput;
+
+//   const backward = lowercaseInput.split("").reverse().join("");
+
+//   return forward === backward;
+// }
+
+const isPalindrome = (x) => {
+  return x.split("").reverse().join("").toLowerCase() === x.toLowerCase() ? true : false
+}
