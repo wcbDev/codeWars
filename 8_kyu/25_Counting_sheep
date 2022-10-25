@@ -1,0 +1,18 @@
+function countSheeps(arrayOfSheep) {
+  // TODO May the force be with you
+  let totalSheep = 0;
+  for (let i=0; i<arrayOfSheep.length; i++){
+    if (arrayOfSheep[i] == true){ 
+      totalSheep ++ ;   
+    }   
+  }
+  return totalSheep;
+}
+
+// function countSheeps(arrayOfSheeps) {
+//   return arrayOfSheeps.filter(Boolean).length;
+// }
+
+// Learned a new method .filter().
+// .filter creates a shallow copy of an array(a copy that is dependent on the original copy) that meets certain conditions. 
+// Adding Boolen ensures that it returns truthy values.
