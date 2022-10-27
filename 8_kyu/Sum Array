@@ -1,0 +1,6 @@
+const sum = (numbers) => numbers.reduce((a,b) => a + b , 0)
+
+syntax
+.reduce((previous value , current value) => previous value + current value , initial value) 
+
+if there is no inital value, arr[0] is the initial value and is passed in first as the previous value
