@@ -11,6 +11,8 @@ function fakeBin(str){
   return newStr;
 }
 
+//interate through the array, if value of the array is more than 5 concatonate 1 else concat 0
+
 // function fakeBin(x) {
 //     return x.split('').map(n => n < 5 ? 0 : 1).join('')
 // }
