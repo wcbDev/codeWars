@@ -1,0 +1,4 @@
+function doubleInteger(i) {
+  let doubleInt = 2*i
+  return doubleInt;
+}
