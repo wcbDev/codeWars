@@ -1,0 +1,5 @@
+const smash = (words) => words.join(' ')
+
+
+// Difference between .toString and .join
+// .join converts every element of the array to a string and joins each element together using a seprator. .toString converts every element to an aray but automatically makes the seperator a comma
