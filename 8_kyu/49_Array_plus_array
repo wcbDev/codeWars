@@ -1,0 +1,10 @@
+function arrayPlusArray(arr1, arr2) {
+  let arrOne = arr1.reduce((x,y) => x + y)
+  let arrTwo = arr2.reduce((x,y) => x + y)
+  return arrOne + arrTwo; 
+}
+
+// way better method concat then reduce
+// function arrayPlusArray(arr1, arr2) {
+//  return arr1.concat(arr2).reduce((acc, cur) => acc + cur);
+// }
