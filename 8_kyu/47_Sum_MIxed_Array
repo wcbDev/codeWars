@@ -1,0 +1,8 @@
+function sumMix(x){
+return x.reduce((y,z) => +z + y, 0)
+}
+
+//refactor
+// const sumMix = (x) => x.reduce((y,z) => +z +y, 0)
+
+//+ before z is a unary plus operator. It attempts to convert anything to a number. .
