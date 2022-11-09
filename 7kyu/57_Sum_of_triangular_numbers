@@ -1,0 +1,11 @@
+function sumTriangularNumbers(n) {
+  let a = 0;
+  let b = 0;
+
+  for (let i = 1; i < n+1; i++){
+    a = a + i;
+    b = b + a;
+  }
+  return b;
+}
+
