@@ -1,0 +1,4 @@
+const swap = string => string.replace(/[aeiou]/g, element => element.toUpperCase());
+
+//New Method. .replace
+//use here reg expersion 
