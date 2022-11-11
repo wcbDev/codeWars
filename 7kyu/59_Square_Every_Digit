@@ -1,1 +1,7 @@
 const squareDigits = num => parseInt(String(num).split('').map(x => parseInt(x)**2).reduce((a, x) => a + String(x)))
+
+
+function squareDigits(num){
+  return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+  
+}
