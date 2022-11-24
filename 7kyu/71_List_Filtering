@@ -7,3 +7,12 @@ function filter_list(l) {
   }
   return integers
 }
+
+
+function filter_list(l) {
+  return l.filter(e => Number.isInteger(e));
+}
+
+function filter_list(l) {
+  return l.filter(function(v) {return typeof v == 'number'})
+}
