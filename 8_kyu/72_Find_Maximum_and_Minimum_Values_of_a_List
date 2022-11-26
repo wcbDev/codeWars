@@ -1,0 +1,11 @@
+Let min = function(list){
+    
+    return Math.min(...list);
+}
+
+Let max = function(list){
+    
+    return Math.max(...list);
+}
+
+Spread function
