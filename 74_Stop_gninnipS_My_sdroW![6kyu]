@@ -1,0 +1,19 @@
+function spinWords(str) {
+  let joinStr = []
+  //split string " "
+  let splitString = str.split(" ")
+  for (let i = 0; i < splitString.length; i++) {
+    //check if each string has 5 or more
+    if (splitString[i].length >= 5) {
+      let s = splitString[i].split("").reverse().join("")
+      joinStr.push(s)
+    } else {
+      let r = splitString[i]
+      joinStr.push(r)
+    }
+  }
+  //if not push to array
+  //if it does reverse
+  //join array
+  return joinStr.join(" ")
+}
